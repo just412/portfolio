@@ -27,10 +27,12 @@ const About = () => {
         </div>
         <div className='app__about-content'>
           <p className='p-text'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Hello! I am Justin and I love creating stuffs through programming that helps businesses or even daily tasks simple. My interest, specially in <span>web development</span> or programming in general started way back in 2012 when I wrote a syntax for a school exercise in a piece of paper. Without much expectation, it worked in the compiler just as how I wrote it. 
             <br/>
             <br/>
-            <p className='p-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className='p-text'>Fast forward today, that interest was relived when the pandemic started and I began to solve quick programming problems in the internet in my spare time while working as a <span>Quality Assurance Analyst</span> at home. That's when I realized I want to start a career in web development.</p>
+            <br/>
+            <p className='p-text'>In my on and off self-study journey in web development for almost two years, I feel inlove designing <span>frontend</span> of a website and also the challenge of creating logic for <span>backend</span> or an API.</p>
           </p>
           <div className='app__about-avatar'>
             <div className='app__about-img'>

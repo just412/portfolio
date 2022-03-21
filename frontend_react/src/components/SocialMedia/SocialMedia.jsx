@@ -25,15 +25,15 @@ const SocialMedia = () => {
                 <p className="label p-text">SOCIALS</p>
                 <div className="spacer"></div>
                 <div className="item">
-                    <BsGithub size={20}/>
+                    <a  href="https://github.com/just412" target='_blank'><BsGithub size={20}/></a>
                 </div>
                 <div className="item">
-                    <BsLinkedin size={20}/>
+                    <a href="https://www.linkedin.com/in/justin-liza-rodriguez/" target='_blank'><BsLinkedin size={20}/></a>
                 </div>
             </div> 
         :   <div className='app__social'>
-                <div> <BsGithub /> </div>
-                <div> <BsLinkedin /> </div>
+                <div> <a  href="https://github.com/just412" target='_blank'><BsGithub size={20}/></a> </div>
+                <div> <a href="https://www.linkedin.com/in/justin-liza-rodriguez/" target='_blank'><BsLinkedin size={20}/></a> </div>
             </div> 
     }
     </>

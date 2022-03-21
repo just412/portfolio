@@ -46,7 +46,7 @@ const Footer = () => {
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
           <img src={images.email} alt="email"/>
-          <a href='mailto:justin.rodriguez121206@gmail.com' className='p-text'>justin.rodriguez121206@gmail.com</a>
+          <a href='mailto:justin.rodriguez121206@gmail.com' className='p-text'>justinlizarodriguez@gmail.com</a>
         </div>
         <div className='app__footer-card'>
           <img src={images.mobile} alt="mobile"/>
@@ -73,8 +73,8 @@ const Footer = () => {
           <button type='button' className='p-text' onClick={handleSubmit}>{loading ? "Sending.." : "Send Message"}</button>
         </div> 
         : 
-        <div>
-          <h3 className='head-text'>Thank you for getting in touch</h3>
+        <div className='sent_message'>
+          <h3 className='head-text'>Thank You for Getting in Touch!<br/>You'll Hear from Me Soon.</h3>
         </div>
       }
       

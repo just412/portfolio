@@ -52,7 +52,9 @@ const Work = () => {
         transition= {{ duration: 0.3,}}
         className="app__work-portfolio"
       >
-        {filterWork.map((work, index) => (
+        {filterWork.length != 0?
+          <>
+          {filterWork.map((work, index) => (
           <div className='app__work-item app__flex' key={index}>
             <div className='app__work-img app__flex'>
               <img src={urlFor(work.imgUrl)} alt={work.name}/>
@@ -96,6 +98,13 @@ const Work = () => {
             </div>
           </div>
         ))}
+        </>
+        : 
+        <div className='no_project'>
+          <h3 className='head-text'>No Projects to Flex yet.</h3>
+        </div>
+        }
+        
       </motion.div>
     </>
   )
