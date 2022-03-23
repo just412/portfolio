@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import "./Navbar.scss"
-import App from '../../App'
+import PDF from "../../assets/Justin-Rodriguez CV.pdf"
 
 const Navbar = () => {
   const [ toggle, setToggle ] = useState(false)
@@ -52,7 +52,7 @@ const Navbar = () => {
                             ))}
 
                             <div>
-                                <button type="button" className='p-text'>Download CV</button>
+                                <button type="button" className='p-text' onClick={() => window.open(PDF)}>Download CV</button>
                             </div>
                         </ul>
                     </section>

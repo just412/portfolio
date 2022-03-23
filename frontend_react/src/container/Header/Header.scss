@@ -81,7 +81,11 @@
       @media screen and (max-width: 900px) {
       
         h1 {
-          font-size: 2.5rem;
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 1rem;
         }
       }
     }
@@ -95,6 +99,13 @@
         font-size: 1.2rem;
         width: 100%;
         text-align: left;
+      }
+
+      @media screen and (max-width: 900px) {
+      
+        p {
+          font-size: 1rem;
+        }
       }
     }
 
@@ -116,13 +127,17 @@
       border: 1px solid var(--green);
       background-color: var(--secondary-color);
       letter-spacing: 1.5px;
-  
-      font-weight: 500;
       color: var(--lightest-slate);
+      font-weight: 500;
       outline: none;
       margin: 3rem 0 0 0;
       font-family: var(--font-base);
       cursor: pointer;
+
+      a {
+        text-decoration: none;
+
+      }
     }
   }
   

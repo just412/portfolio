@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import { AppWrap } from "../../wrapper"
 
 import "./Header.scss"
-import { images } from "../../constants"
+import PDF from "../../assets/Justin-Rodriguez CV.pdf"
 
 const scaleVariants = {
   whileInView: {
@@ -38,7 +38,7 @@ const Header = () => {
           </div>
 
           <div>
-            <button type="button" className='p-text'>Download CV</button>
+            <button type="button" className='p-text' onClick={() => window.open(PDF)}>Download CV</button>
           </div>
           
         </div>
